@@ -24,4 +24,12 @@
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+$string['assign'] = 'Assign';
+$string['assignrole'] = 'Assign evaluation officer';
+$string['context'] = 'Context';
+$string['evalrolemissing'] = 'The role "Evaluationsbeauftragter" was not found.';
+$string['manageevaluators'] = 'Manage evaluation officers';
 $string['pluginname'] = 'Course feedback';
+$string['remove'] = 'Remove';
+$string['summary'] = 'Assigned evaluation officers';
+$string['username'] = 'Username';
