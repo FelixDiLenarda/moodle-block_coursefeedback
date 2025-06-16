@@ -30,6 +30,11 @@ if ($hassiteconfig) {
 
     // phpcs:ignore Generic.CodeAnalysis.EmptyStatement.DetectedIf
     if ($ADMIN->fulltree) {
-        // TO-DO: Define actual plugin settings page and add it to the tree - {@link https://docs.moodle.org/dev/Admin_settings}.
+        $ADMIN->add('blocksettings', new admin_externalpage(
+            'manageevaluators',
+            new lang_string('manageevaluators', 'block_coursefeedback'),
+            new moodle_url('/blocks/coursefeedback/manage.php'),
+            'block/coursefeedback:manageevaluators'
+        ));
     }
 }

@@ -53,6 +53,12 @@ class block_coursefeedback extends block_base {
             $this->content->text = '';
         }
 
+        if (has_capability('block/coursefeedback:manageevaluators', \context_system::instance())) {
+            $url = new \moodle_url('/blocks/coursefeedback/manage.php');
+            $link = \html_writer::link($url, get_string('manageevaluators', 'block_coursefeedback'));
+            $this->content->text .= \html_writer::tag('div', $link);
+        }
+
         return $this->content;
     }
 

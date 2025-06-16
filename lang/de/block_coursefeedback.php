@@ -24,4 +24,12 @@
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+$string['assign'] = 'Zuweisen';
+$string['assignrole'] = 'Evaluationsbeauftragten zuweisen';
+$string['context'] = 'Kontext';
+$string['evalrolemissing'] = 'Die Rolle "Evaluationsbeauftragter" wurde nicht gefunden.';
+$string['manageevaluators'] = 'Evaluationsbeauftragte verwalten';
 $string['pluginname'] = 'Kursfeedback';
+$string['remove'] = 'Entfernen';
+$string['summary'] = 'Zugewiesene Evaluationsbeauftragte';
+$string['username'] = 'Benutzername';
